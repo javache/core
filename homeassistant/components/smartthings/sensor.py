@@ -109,6 +109,9 @@ CAPABILITY_TO_SENSORS = {
             None,
         )
     ],
+    Capability.gas_meter: [
+        Map(Attribute.gas_meter, "Gas Meter", ENERGY_KILO_WATT_HOUR, None)
+    ],
     Capability.illuminance_measurement: [
         Map(Attribute.illuminance, "Illuminance", "lux", DEVICE_CLASS_ILLUMINANCE)
     ],
